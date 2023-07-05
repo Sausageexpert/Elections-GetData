@@ -1,0 +1,9 @@
+{% extends 'ElectionCode/base.html' %}
+
+{% block body %}
+{% for key in requiredQuestions.keys %}
+<div class = 'question_display'> {{key}} </div>
+{% endfor %}
+{% endblock %}
+
+
